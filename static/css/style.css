@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+.legend {
+  padding: 6px 8px;
+  font: 12px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #555;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  position: sticky;
+}
+#map {
+  height: 100%;
+}
+.header {
+  background-image: url("quake3.png");
+  background-size: cover;
+  height: 250px;
+}
+.divider {
+  height: 15px;
+  background-image: linear-gradient(to bottom, rgba(62,74,92,0.32),  rgba(255, 255, 255, 0.12));
+
+}
